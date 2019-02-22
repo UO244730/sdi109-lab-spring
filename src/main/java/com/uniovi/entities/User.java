@@ -20,6 +20,7 @@ public class User {
 	private String role;
 	@OneToMany(mappedBy = "user", cascade = CascadeType.ALL)
 	private Set<Mark> marks;
+	
 
 	public User(String dni, String name, String lastName) {
 		super();
@@ -89,5 +90,13 @@ public class User {
 
 	public void setPasswordConfirm(String passwordConfirm) {
 		this.passwordConfirm = passwordConfirm;
+	}
+
+	public String getRole() {
+		return role;
+	}
+
+	public void setRole(String role) {
+		this.role = role;
 	}
 }
