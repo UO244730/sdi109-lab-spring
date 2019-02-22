@@ -61,7 +61,7 @@ public class InsertSampleDataService {
 			}
 			
 		};
-		user1.setMarks(user2Marks);
+		user2.setMarks(user2Marks);
 		
 		Set user3Marks = new HashSet<Mark>() {
 			{
@@ -71,7 +71,7 @@ public class InsertSampleDataService {
 			}
 			
 		};
-		user1.setMarks(user3Marks);
+		user3.setMarks(user3Marks);
 		
 		Set user4Marks = new HashSet<Mark>() {
 			{
@@ -81,7 +81,7 @@ public class InsertSampleDataService {
 			}
 			
 		};
-		user1.setMarks(user4Marks);
+		user4.setMarks(user4Marks);
 		usersService.addUser(user1);
 		usersService.addUser(user2);
 		usersService.addUser(user3);
