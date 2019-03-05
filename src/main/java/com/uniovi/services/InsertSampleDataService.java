@@ -54,10 +54,10 @@ public class InsertSampleDataService {
 		
 		Set user2Marks = new HashSet<Mark>() {
 			{
-				add(new Mark("Nota B1", 5.0, user1));
-				add(new Mark("Nota B2", 4.3, user1));
-				add(new Mark("Nota B3", 8.0, user1));
-				add(new Mark("Nota B4", 3.5, user1));
+				add(new Mark("Nota B1", 5.0, user2));
+				add(new Mark("Nota B2", 4.3, user2));
+				add(new Mark("Nota B3", 8.0, user2));
+				add(new Mark("Nota B4", 3.5, user2));
 			}
 			
 		};
@@ -65,9 +65,9 @@ public class InsertSampleDataService {
 		
 		Set user3Marks = new HashSet<Mark>() {
 			{
-				add(new Mark("Nota C1", 5.5, user1));
-				add(new Mark("Nota C2", 6.6, user1));
-				add(new Mark("Nota C3", 7.0, user1));
+				add(new Mark("Nota C1", 5.5, user3));
+				add(new Mark("Nota C2", 6.6, user3));
+				add(new Mark("Nota C3", 7.0, user3));
 			}
 			
 		};
@@ -75,9 +75,9 @@ public class InsertSampleDataService {
 		
 		Set user4Marks = new HashSet<Mark>() {
 			{
-				add(new Mark("Nota D1", 10.0, user1));
-				add(new Mark("Nota D2", 8.0, user1));
-				add(new Mark("Nota D3", 9.0, user1));
+				add(new Mark("Nota D1", 10.0, user4));
+				add(new Mark("Nota D2", 8.0, user4));
+				add(new Mark("Nota D3", 9.0, user4));
 			}
 			
 		};
